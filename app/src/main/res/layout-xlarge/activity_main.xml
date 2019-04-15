@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="ma.gravenilvec.complet.MainActivity"
+    android:background="@drawable/i3"
+    >
+
+    <Button
+
+        android:id="@+id/button"
+        android:layout_width="400dp"
+        android:layout_height="98dp"
+        android:layout_marginBottom="280dp"
+        android:layout_marginTop="100dp"
+        android:background="@drawable/button"
+        android:text="@string/gg"
+        android:textSize="60sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.612"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="400dp"
+        android:layout_height="98dp"
+        android:layout_marginTop="780dp"
+        android:background="@drawable/button"
+        android:text="@string/g"
+        android:textSize="60sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintBottom_toTopOf="@+id/button"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        tools:ignore="MissingConstraints" />
+</android.support.constraint.ConstraintLayout>

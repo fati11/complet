@@ -1,0 +1,278 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/i2"
+    tools:context="ma.gravenilvec.complet.Main3Activity">
+
+    <SeekBar
+        android:id="@+id/s"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toTopOf="@+id/tableRow2"
+        app:layout_constraintEnd_toStartOf="@+id/tableRow2"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TableRow
+        android:id="@+id/tableRow2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <EditText
+            android:id="@+id/txt"
+            android:layout_width="150dp"
+            android:layout_height="98dp"
+            android:layout_marginBottom="15dp"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="txt"
+            android:textSize="60sp"
+            android:textStyle="bold|italic"
+            app:layout_constraintBottom_toTopOf="@+id/button26"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.656"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <EditText
+            android:id="@+id/txt2"
+            android:layout_width="150dp"
+            android:layout_height="98dp"
+            android:layout_marginBottom="15dp"
+            android:layout_marginRight="0dp"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="txt"
+            android:textSize="60sp"
+            android:textStyle="bold|italic"
+            app:layout_constraintBottom_toTopOf="@+id/button26"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.656"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+
+    </TableRow>
+
+    <Button
+        android:id="@+id/button26"
+        android:layout_width="400dp"
+        android:layout_height="100dp"
+        android:layout_marginBottom="200dp"
+        android:layout_marginEnd="200dp"
+        android:layout_marginStart="150dp"
+        android:layout_marginTop="700dp"
+        android:text="Button"
+        android:textSize="60sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintBottom_toTopOf="@+id/tableRow"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.96" />
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="500dp"
+        android:layout_height="100dp"
+        android:layout_marginBottom="15dp"
+        android:layout_marginStart="400dp"
+        android:layout_marginTop="400dp"
+        android:background="@color/colorPrimary"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:textSize="40sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintBottom_toTopOf="@+id/tableRow"
+        app:layout_constraintEnd_toStartOf="@+id/tableRow2"
+        app:layout_constraintHorizontal_bias="0.361"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.564" />
+
+    <TableRow
+        android:id="@+id/tableRow"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="16dp"
+        android:layout_marginStart="60dp"
+        android:layout_marginTop="600dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.733"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0">
+
+        <Button
+            android:id="@+id/br1"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:textSize="60sp"
+            android:textStyle="bold|italic" />
+
+        <Button
+            android:id="@+id/br2"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:textSize="60sp"
+            android:textStyle="bold|italic" />
+
+        <Button
+            android:id="@+id/br3"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:textSize="60sp"
+            android:textStyle="bold|italic" />
+
+        <Button
+            android:id="@+id/b"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:text="="
+            android:textSize="60sp"
+            android:textStyle="bold|italic" />
+
+        <Button
+            android:id="@+id/br4"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:textSize="60sp"
+            android:textStyle="bold|italic" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="800dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:onClick="sommeClick"
+            android:text="+"
+            android:textSize="60sp"
+            android:textStyle="bold|italic" />
+
+        <Button
+            android:id="@+id/button7"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:onClick="multiClick"
+            android:text="*"
+            android:textSize="60sp"
+            android:textStyle="bold|italic" />
+
+        <Button
+            android:id="@+id/button8"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:onClick="soustraClick"
+            android:text="-"
+            android:textSize="60sp"
+            android:textStyle="bold|italic" />
+
+        <Button
+            android:id="@+id/button15"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:onClick="divClick"
+            android:text="/"
+            android:textSize="60sp"
+            android:textStyle="bold|italic" />
+
+        <Button
+            android:id="@+id/button20"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:onClick="bEffacer"
+            android:text="DEL"
+            android:textSize="60sp"
+            android:textStyle="bold|italic" />
+
+        <Button
+            android:id="@+id/button9"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:onClick="effacerLast"
+            android:text="eff"
+            android:textSize="60sp"
+            android:textStyle="bold|italic" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="900dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.166"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.405">
+
+        <Button
+            android:id="@+id/buton1"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:onClick="b1_Click"
+            android:textSize="60sp"
+            android:textStyle="bold|italic" />
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:onClick="b2Click"
+            android:textSize="60sp"
+            android:textStyle="bold|italic" />
+
+        <Button
+            android:id="@+id/button3"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:onClick="b3Click"
+            android:textSize="60sp"
+            android:textStyle="bold|italic" />
+
+        <Button
+            android:id="@+id/button4"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:onClick="b4Click"
+            android:textSize="60sp"
+            android:textStyle="bold|italic" />
+
+        <Button
+            android:id="@+id/button5"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:onClick="b5Click"
+            android:textSize="60sp"
+            android:textStyle="bold|italic" />
+
+        <Button
+            android:id="@+id/button6"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:onClick="b6Click"
+            android:textSize="60sp"
+            android:textStyle="bold|italic" />
+    </TableRow>
+</android.support.constraint.ConstraintLayout>

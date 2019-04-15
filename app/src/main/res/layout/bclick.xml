@@ -1,0 +1,289 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/i2"
+    tools:context="ma.gravenilvec.complet.Main3Activity">
+
+    <SeekBar
+        android:id="@+id/s"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toTopOf="@+id/tableRow2"
+        app:layout_constraintEnd_toStartOf="@+id/tableRow2"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TableRow
+        android:id="@+id/tableRow2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <EditText
+            android:id="@+id/txt"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="15dp"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="txt"
+            android:textSize="20sp"
+            android:textStyle="bold|italic"
+            app:layout_constraintBottom_toTopOf="@+id/button26"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.656"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <EditText
+            android:id="@+id/txt2"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="15dp"
+            android:layout_marginRight="0dp"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="txt"
+            android:textSize="20sp"
+            android:textStyle="bold|italic"
+            app:layout_constraintBottom_toTopOf="@+id/button26"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.656"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+
+
+
+    </TableRow>
+
+    <Button
+        android:id="@+id/button26"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="200dp"
+        android:layout_marginEnd="200dp"
+        android:layout_marginStart="150dp"
+        android:layout_marginTop="250dp"
+        android:text="Button"
+        android:textSize="30sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintBottom_toTopOf="@+id/tableRow"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_marginBottom="15dp"
+        android:layout_marginStart="400dp"
+        android:layout_marginTop="240dp"
+        android:background="@color/colorPrimary"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:textSize="20sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintBottom_toTopOf="@+id/tableRow"
+        app:layout_constraintEnd_toStartOf="@+id/tableRow2"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TableRow
+        android:id="@+id/tableRow"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginStart="60dp"
+        android:layout_marginTop="300dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <Button
+            android:id="@+id/br1"
+            android:layout_width="60dp"
+            android:layout_height="50dp"
+            android:textSize="20sp"
+            android:textStyle="bold|italic" />
+
+        <Button
+            android:id="@+id/br2"
+            android:layout_width="60dp"
+            android:layout_height="50dp"
+            android:textSize="20sp"
+            android:textStyle="bold|italic" />
+
+        <Button
+            android:id="@+id/br3"
+            android:layout_width="60dp"
+            android:layout_height="50dp"
+            android:textSize="20sp"
+            android:textStyle="bold|italic" />
+
+        <Button
+            android:id="@+id/b"
+            android:layout_width="60dp"
+            android:layout_height="50dp"
+            android:text="="
+            android:textSize="20sp"
+            android:textStyle="bold|italic" />
+
+        <Button
+            android:id="@+id/br4"
+            android:layout_width="60dp"
+            android:layout_height="50dp"
+            android:textSize="20sp"
+            android:textStyle="bold|italic" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="450dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="60dp"
+            android:layout_height="50dp"
+            android:onClick="sommeClick"
+            android:text="+"
+            android:backgroundTint="@android:color/holo_blue_dark"
+            android:textSize="20sp"
+            android:textStyle="bold|italic" />
+
+        <Button
+            android:id="@+id/button7"
+            android:layout_width="60dp"
+            android:layout_height="50dp"
+            android:onClick="multiClick"
+            android:text="*"
+            android:backgroundTint="@android:color/holo_blue_dark"
+
+            android:textSize="20sp"
+            android:textStyle="bold|italic" />
+
+        <Button
+            android:id="@+id/button8"
+            android:layout_width="60dp"
+            android:layout_height="50dp"
+            android:onClick="soustraClick"
+            android:text="-"
+            android:backgroundTint="@android:color/holo_blue_dark"
+
+            android:textSize="20sp"
+            android:textStyle="bold|italic" />
+
+        <Button
+            android:id="@+id/button15"
+            android:layout_width="60dp"
+            android:layout_height="50dp"
+            android:onClick="divClick"
+            android:text="/"
+            android:backgroundTint="@android:color/holo_blue_dark"
+
+            android:textSize="20sp"
+            android:textStyle="bold|italic" />
+
+        <Button
+            android:id="@+id/button20"
+            android:layout_width="60dp"
+            android:layout_height="50dp"
+            android:onClick="bEffacer"
+            android:text="DEL"
+            android:backgroundTint="@android:color/holo_blue_dark"
+
+            android:textSize="20sp"
+            android:textStyle="bold|italic" />
+
+        <Button
+            android:id="@+id/button9"
+            android:layout_width="60dp"
+            android:layout_height="50dp"
+            android:onClick="effacerLast"
+            android:backgroundTint="@android:color/holo_blue_dark"
+
+            android:text="eff"
+            android:textSize="20sp"
+            android:textStyle="bold|italic" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="500dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <Button
+            android:id="@+id/buton1"
+            android:layout_width="60dp"
+            android:layout_height="50dp"
+            android:onClick="b1_Click"
+            android:backgroundTint="@android:color/holo_blue_dark"
+
+            android:textSize="20sp"
+            android:textStyle="bold|italic" />
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="60dp"
+            android:layout_height="50dp"
+            android:onClick="b2Click"
+            android:backgroundTint="@android:color/holo_blue_dark"
+
+            android:textSize="20sp"
+            android:textStyle="bold|italic" />
+
+        <Button
+            android:id="@+id/button3"
+            android:layout_width="60dp"
+            android:layout_height="50dp"
+            android:onClick="b3Click"
+            android:backgroundTint="@android:color/holo_blue_dark"
+
+            android:textSize="20sp"
+            android:textStyle="bold|italic" />
+
+        <Button
+            android:id="@+id/button4"
+            android:layout_width="60dp"
+            android:layout_height="50dp"
+            android:onClick="b4Click"
+            android:backgroundTint="@android:color/holo_blue_dark"
+
+            android:textSize="20sp"
+            android:textStyle="bold|italic" />
+
+        <Button
+            android:id="@+id/button5"
+            android:layout_width="60dp"
+            android:layout_height="50dp"
+            android:onClick="b5Click"
+            android:backgroundTint="@android:color/holo_blue_dark"
+
+            android:textSize="20sp"
+            android:textStyle="bold|italic" />
+
+        <Button
+            android:id="@+id/button6"
+            android:layout_width="60dp"
+            android:layout_height="50dp"
+            android:onClick="b6Click"
+            android:backgroundTint="@android:color/holo_blue_dark"
+
+            android:textSize="20sp"
+            android:textStyle="bold|italic" />
+    </TableRow>
+</android.support.constraint.ConstraintLayout>

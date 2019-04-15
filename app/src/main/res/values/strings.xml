@@ -1,0 +1,32 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">complet</string>
+    <string name="todo">TODO</string>
+
+    <string name="g">قواعد اللعبة</string>
+    <string name="gg">بدء اللعبة</string>
+
+    <string name="button1">لعبة الأرقام و الحروف:</string>
+
+    <string name="but">تتكون اللعبة من 3 مراحل و كل مرحلة تتكون من 3 جولات بالنسبة للحروف و جولة واحدة للأعداد:
+
+المرحلة السهلة:و هي مرحلة جد بسيطة تضم الكلمات و العمليات السهلة والتي يكون فيها المتباري تحت ضغط  الزمن.
+
+              المرحلة المتوسطة:وهي نفس المرحلة السابقة باستثناء أننا ننقص من الزمن المعطى.
+
+
+
+        المرحلة المعقدة:و هي المرحلة التي يكون فيها إيجاد الكلمة أو العملية المناسبة جد صعب.
+    </string>
+
+    <string name="buttonn">Boutton du dialogue appuyé</string>
+    <string name="cancel">Dialogue annulée</string>
+    <string name="button3">Button</string>
+    <string name="aa">ابدأ</string>
+    <string name="button">Button</string>
+    <string name="aaaa">المرحلة السهلة</string>
+    <string name="aaaaa">المرحلة المتوسطة</string>
+    <string name="aaaaaa">المرحلة الصعبة</string>
+    <string name="txt">txt</string>
+
+
+</resources>
